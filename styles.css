@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #fdfdfd;
+}
+
+header {
+    background-color: #e3f2fd;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #1976d2;
+    padding: 5px;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: inline-block;
+    position: relative;
+}
+
+nav a:hover {
+    background-color: #1565c0;
+}
+
+footer {
+    background-color: #424242;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+section h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #1976d2;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #1976d2;
+}
+
+.section-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section-grid div {
+    background-color: #f3f3f3;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    flex: 1 1 30%;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.grid-item h2 {
+    font-weight: bolder;
+    color: white;
+}
+
+.section-grid div img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.service-item h2 {
+    background-color: #1976d2;
+    color: white;
+    padding: 15px;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    box-sizing: border-box;
+}
+
+.service-item img {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.help {
+    background-color: #1976d2;
+}
+
+.pets-container {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.pets {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.pets img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about h2 {
+    font-size: 40px;
+}
+
+.about-text-container {
+    background-color: #1976d2;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+}
+
+.about-text p {
+    margin: 0;
+}
+
+.about-text p b {
+    font-weight: bolder;
+}
+
+.about-images {
+    text-align: center;
+}
+
+.about-images img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.about-images p {
+    text-align: center;
+}
+
+.hours-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #1976d2;
+}
+
+.hours {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.hours h2 {
+    font-weight: bolder;
+    color: white;
+}
+
+.news-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.news {
+    flex: 1 1 30%;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;   
+}
+
+.news h2 {
+    font-weight: bolder;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact p {
+    margin: 10px 0;
+}
+
+.contact a {
+    color: #1976d2;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #e3f2fd;
+    color: #2c3e50;
+}
